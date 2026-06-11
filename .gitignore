@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda / ambientes virtuais
+.env
+.venv/
+env/
+
+# Dados processados e grandes arquivos
+data/processed/
+data/external/
+*.csv
+*.sdf
+*.pkl
+
+# Resultados gerados (manter só os finais versionados manualmente)
+results/figures/*.png
+results/figures/*.pdf
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

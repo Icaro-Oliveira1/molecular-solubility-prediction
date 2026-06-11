@@ -1,0 +1,12 @@
+name: logs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - rdkit
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
